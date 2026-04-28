@@ -1,0 +1,32 @@
+site_name: MicroBit Camp Course
+theme:
+  name: readthedocs
+  palette:
+    primary: indigo
+    accent: pink
+  features:
+    - navigation.tabs
+    - navigation.sections
+
+nav:
+  - 'Course Home': index.md
+  - 'Session 1 - Hero Pet':
+    - 'Module 1 - Meet the Microbit': session-1/module-1.md
+    - 'Module 2 - Make Your Pet Face': session-1/module-2.md
+    - 'Module 3 - Animate Your Pet': session-1/module-3.md
+    - 'Module 4 - Add Pet Feelings': session-1/module-4.md
+    - 'Module 5 - Smart Pet Upgrade': session-1/module-5.md
+    - 'Module 6 - Feed Your Pet Game': session-1/module-6.md
+    - 'Module 7 - Showcase Time!': session-1/module-7.md
+  - 'Session 2 - Smart Pet Lab':
+    - 'Module 8 - Meet the Sensors': session-2/module-8.md
+    - 'Module 9 - Light Sensor Pet': session-2/module-9.md
+    - 'Module 10 - Temperature Pet': session-2/module-10.md
+    - 'Module 11 - Shake to Wake': session-2/module-11.md
+    - 'Module 12 - Touch to Feed': session-2/module-12.md
+    - 'Module 13 - Add Pet Needs': session-2/module-13.md
+    - 'Module 14 - Survival System': session-2/module-14.md
+    - 'Module 15 - Keep Your Pet Alive': session-2/module-15.md
+    - 'Module 16 - Secret Bonus Mode': session-2/module-16.md
+    - 'Module 17 - Final Challenge': session-2/module-17.md
+  - 'Congratulations': conclusion.md
